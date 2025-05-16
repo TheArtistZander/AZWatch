@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: #00796b;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+/* Phone Directory Section */
+#phone-directory {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+    border-left: 5px solid #00796b;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contact h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #00796b;
+}
+
+.contact p {
+    margin: 5px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Resources Section */
+#resources {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 1.4em;
+    color: #004d40;
+}
+
+.resource {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+    border-left: 5px solid #00796b;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.resource h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #00796b;
+}
+
+.resource p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.resource a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #00796b;
+}
+
+.resource a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+#search-resources {
+    width: 100%;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 1em;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background: #004d40;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #00796b;
+}
+
+/* Footer */
+footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
